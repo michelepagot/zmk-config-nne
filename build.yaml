@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: adafruit_kb2040
-    shield: two_percent_milk
+  - board: waveshare_rp2040_zero
+    shield: nne

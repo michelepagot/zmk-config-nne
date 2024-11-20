@@ -1,21 +1,25 @@
 /*
- * Copyright (c) 2022 The ZMK Contributors
+ * 
  *
  * SPDX-License-Identifier: MIT
  */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
+
+#define DEFAULT 0
+
 
 / {
     keymap {
         compatible = "zmk,keymap";
+        label = "nne";
 
         default_layer {
+            label = "Default";
             bindings = <
-                &kp X
-                &kp Z
+&kp UP_ARROW  &kp LEFT_ARROW
+&kp DOWN_ARROW   &kp RIGHT_ARROW
             >;
         };
     };
